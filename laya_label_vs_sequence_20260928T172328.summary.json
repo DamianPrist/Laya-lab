@@ -1,0 +1,626 @@
+{
+  "experiment": "laya_label_vs_sequence_position_v1",
+  "sample_seed": 20260928,
+  "request_shuffle_seed": 20260928,
+  "sampled_case_ids_in_sample_order": [
+    88,
+    71,
+    36,
+    89,
+    97,
+    5,
+    28,
+    13,
+    57,
+    46,
+    80,
+    26,
+    91,
+    43,
+    66,
+    60,
+    4,
+    34,
+    86,
+    52
+  ],
+  "unique_request_count": 140,
+  "success_count": 140,
+  "failure_count": 0,
+  "warmups": [
+    {
+      "warmup": 1,
+      "answer": "B",
+      "latency_ms": 30.51229999982752,
+      "model": "english"
+    },
+    {
+      "warmup": 2,
+      "answer": "A",
+      "latency_ms": 30.87059999961639,
+      "model": "english"
+    },
+    {
+      "warmup": 3,
+      "answer": "A",
+      "latency_ms": 31.634099999791943,
+      "model": "english"
+    }
+  ],
+  "full_precision_tie_note": "Laya 0.3.20 rounds API probabilities to four decimal places; exact full-precision score ties cannot be determined from this endpoint.",
+  "position_control": {
+    "a_selection_by_sequence_position": {
+      "1": {
+        "observations": 20,
+        "a_selected": 10,
+        "a_selected_rate": 0.5,
+        "mean_a_probability": 0.39535
+      },
+      "2": {
+        "observations": 20,
+        "a_selected": 5,
+        "a_selected_rate": 0.25,
+        "mean_a_probability": 0.31776
+      },
+      "3": {
+        "observations": 20,
+        "a_selected": 5,
+        "a_selected_rate": 0.25,
+        "mean_a_probability": 0.286765
+      },
+      "4": {
+        "observations": 20,
+        "a_selected": 5,
+        "a_selected_rate": 0.25,
+        "mean_a_probability": 0.27447499999999997
+      }
+    },
+    "content_consistency": {
+      "case_count": 20,
+      "fully_content_consistent_cases": 7,
+      "fully_content_consistent_rate": 0.35,
+      "unique_selected_content_count_distribution": {
+        "1": 7,
+        "2": 9,
+        "3": 3,
+        "4": 1
+      },
+      "pairwise_content_agreement_rate": 0.575,
+      "changes_from_baseline": 25,
+      "baseline_comparisons": 60,
+      "change_from_baseline_rate": 0.4166666666666667,
+      "per_case": [
+        {
+          "original_case_id": 4,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "C",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "C",
+            "baseline": "C"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 5,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "C",
+            "a_at_sequence_position_3": "A",
+            "a_at_sequence_position_4": "C",
+            "baseline": "C"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 1
+        },
+        {
+          "original_case_id": 13,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "A",
+            "a_at_sequence_position_3": "A",
+            "a_at_sequence_position_4": "A",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 26,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "A",
+            "a_at_sequence_position_3": "A",
+            "a_at_sequence_position_4": "B",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 1
+        },
+        {
+          "original_case_id": 28,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "B",
+            "baseline": "D"
+          },
+          "unique_selected_contents": 3,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 34,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "A",
+            "a_at_sequence_position_3": "A",
+            "a_at_sequence_position_4": "A",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 36,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "B",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "B",
+            "baseline": "B"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 1
+        },
+        {
+          "original_case_id": 43,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "D",
+            "a_at_sequence_position_4": "A",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 46,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "C",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "B",
+            "baseline": "B"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 52,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "C",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "C",
+            "baseline": "C"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 57,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "C",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 3,
+          "fully_consistent": false,
+          "changes_from_baseline": 3
+        },
+        {
+          "original_case_id": 60,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "C",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 3,
+          "fully_consistent": false,
+          "changes_from_baseline": 3
+        },
+        {
+          "original_case_id": 66,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "A",
+            "a_at_sequence_position_3": "A",
+            "a_at_sequence_position_4": "A",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 71,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "B",
+            "a_at_sequence_position_3": "B",
+            "a_at_sequence_position_4": "B",
+            "baseline": "B"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 80,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "B",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 4,
+          "fully_consistent": false,
+          "changes_from_baseline": 3
+        },
+        {
+          "original_case_id": 86,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "D",
+            "a_at_sequence_position_4": "D",
+            "baseline": "D"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 88,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "C",
+            "baseline": "C"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 1
+        },
+        {
+          "original_case_id": 89,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "C",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "A",
+            "baseline": "C"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 1
+        },
+        {
+          "original_case_id": 91,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "A",
+            "a_at_sequence_position_3": "C",
+            "a_at_sequence_position_4": "C",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 97,
+          "selected_original_options": {
+            "a_at_sequence_position_2": "D",
+            "a_at_sequence_position_3": "D",
+            "a_at_sequence_position_4": "D",
+            "baseline": "A"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 3
+        }
+      ]
+    }
+  },
+  "label_control": {
+    "first_option_selection_by_label": {
+      "A": {
+        "observations": 20,
+        "first_option_selected": 10,
+        "first_option_selected_rate": 0.5,
+        "mean_first_option_probability": 0.39535
+      },
+      "B": {
+        "observations": 20,
+        "first_option_selected": 6,
+        "first_option_selected_rate": 0.3,
+        "mean_first_option_probability": 0.33492
+      },
+      "C": {
+        "observations": 20,
+        "first_option_selected": 7,
+        "first_option_selected_rate": 0.35,
+        "mean_first_option_probability": 0.3013
+      },
+      "D": {
+        "observations": 20,
+        "first_option_selected": 7,
+        "first_option_selected_rate": 0.35,
+        "mean_first_option_probability": 0.294065
+      }
+    },
+    "content_consistency": {
+      "case_count": 20,
+      "fully_content_consistent_cases": 13,
+      "fully_content_consistent_rate": 0.65,
+      "unique_selected_content_count_distribution": {
+        "1": 13,
+        "2": 5,
+        "3": 1,
+        "4": 1
+      },
+      "pairwise_content_agreement_rate": 0.75,
+      "changes_from_baseline": 15,
+      "baseline_comparisons": 60,
+      "change_from_baseline_rate": 0.25,
+      "per_case": [
+        {
+          "original_case_id": 4,
+          "selected_original_options": {
+            "baseline": "C",
+            "first_sequence_label_B": "C",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "C"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 5,
+          "selected_original_options": {
+            "baseline": "C",
+            "first_sequence_label_B": "C",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "C"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 13,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "A",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 26,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "A",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 28,
+          "selected_original_options": {
+            "baseline": "D",
+            "first_sequence_label_B": "D",
+            "first_sequence_label_C": "D",
+            "first_sequence_label_D": "D"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 34,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "A",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 36,
+          "selected_original_options": {
+            "baseline": "B",
+            "first_sequence_label_B": "B",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "B"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 1
+        },
+        {
+          "original_case_id": 43,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "D",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "B"
+          },
+          "unique_selected_contents": 4,
+          "fully_consistent": false,
+          "changes_from_baseline": 3
+        },
+        {
+          "original_case_id": 46,
+          "selected_original_options": {
+            "baseline": "B",
+            "first_sequence_label_B": "C",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "B"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 52,
+          "selected_original_options": {
+            "baseline": "C",
+            "first_sequence_label_B": "C",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "C"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 57,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "D",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "C"
+          },
+          "unique_selected_contents": 3,
+          "fully_consistent": false,
+          "changes_from_baseline": 3
+        },
+        {
+          "original_case_id": 60,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "A",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 66,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "A",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 71,
+          "selected_original_options": {
+            "baseline": "B",
+            "first_sequence_label_B": "B",
+            "first_sequence_label_C": "B",
+            "first_sequence_label_D": "B"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 80,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "B",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "B"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 86,
+          "selected_original_options": {
+            "baseline": "D",
+            "first_sequence_label_B": "D",
+            "first_sequence_label_C": "D",
+            "first_sequence_label_D": "D"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 88,
+          "selected_original_options": {
+            "baseline": "C",
+            "first_sequence_label_B": "C",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "C"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 89,
+          "selected_original_options": {
+            "baseline": "C",
+            "first_sequence_label_B": "D",
+            "first_sequence_label_C": "C",
+            "first_sequence_label_D": "D"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        },
+        {
+          "original_case_id": 91,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "A",
+            "first_sequence_label_C": "A",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 1,
+          "fully_consistent": true,
+          "changes_from_baseline": 0
+        },
+        {
+          "original_case_id": 97,
+          "selected_original_options": {
+            "baseline": "A",
+            "first_sequence_label_B": "D",
+            "first_sequence_label_C": "D",
+            "first_sequence_label_D": "A"
+          },
+          "unique_selected_contents": 2,
+          "fully_consistent": false,
+          "changes_from_baseline": 2
+        }
+      ]
+    }
+  },
+  "rounded_probability_ties": {
+    "requests_with_any_rounded_probability_tie": 1,
+    "requests_with_rounded_max_probability_tie": 0,
+    "rounded_max_tie_request_indices": []
+  }
+}

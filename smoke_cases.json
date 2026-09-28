@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1001,
+    "text": "水在标准大气压下的沸点是多少摄氏度？",
+    "choices": {
+      "TEMP_0": "0 摄氏度",
+      "TEMP_100": "100 摄氏度",
+      "TEMP_200": "200 摄氏度"
+    },
+    "expected_answer": "TEMP_100"
+  },
+  {
+    "id": 1002,
+    "text": "All roses are flowers. This plant is a rose. Is this plant a flower?",
+    "choices": {
+      "LOGIC_TRUE": "Yes, it must be a flower",
+      "LOGIC_FALSE": "No, it cannot be a flower"
+    },
+    "expected_answer": "LOGIC_TRUE"
+  },
+  {
+    "id": 1003,
+    "text": "这次服务非常贴心，问题很快就解决了。请判断表达的情感。",
+    "choices": {
+      "MOOD_HAPPY": "正面",
+      "MOOD_FLAT": "中性",
+      "MOOD_UPSET": "负面",
+      "MOOD_MIXED": "正负面混合"
+    },
+    "expected_answer": "MOOD_HAPPY"
+  }
+]

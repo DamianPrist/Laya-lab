@@ -1,0 +1,1103 @@
+
+[
+  {
+    "id": 1,
+    "text": "At standard atmospheric pressure, at what temperature does pure water boil?",
+    "choices": {
+      "A": "0°C",
+      "B": "100°C",
+      "C": "50°C",
+      "D": "200°C"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 2,
+    "text": "Which process allows green plants to use sunlight to produce sugar?",
+    "choices": {
+      "A": "Evaporation",
+      "B": "Fermentation",
+      "C": "Transpiration",
+      "D": "Photosynthesis"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 3,
+    "text": "Which organ pumps blood throughout the human body?",
+    "choices": {
+      "A": "Heart",
+      "B": "Lungs",
+      "C": "Liver",
+      "D": "Kidneys"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 4,
+    "text": "What is the SI unit of electrical resistance?",
+    "choices": {
+      "A": "Watt",
+      "B": "Volt",
+      "C": "Ohm",
+      "D": "Ampere"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 5,
+    "text": "A customer writes: 'I need a replacement unit. Please do not issue a refund.' What is the customer's explicit request?",
+    "choices": {
+      "A": "Receive a refund.",
+      "B": "Repair the existing unit.",
+      "C": "Receive a replacement.",
+      "D": "Cancel the customer account."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 6,
+    "text": "The meeting cannot happen on Tuesday. Please move it to Thursday. What action is being requested?",
+    "choices": {
+      "A": "Reschedule the meeting for Thursday.",
+      "B": "Postpone the meeting indefinitely.",
+      "C": "Keep the meeting on Tuesday.",
+      "D": "Cancel the meeting entirely."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 7,
+    "text": "A manager says: 'The proposal might work, but I won't approve it until the privacy review is complete.' Which interpretation is most accurate?",
+    "choices": {
+      "A": "The proposal has already been approved.",
+      "B": "The proposal was rejected because of its cost.",
+      "C": "The manager believes privacy is irrelevant.",
+      "D": "Approval is pending the privacy review."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 8,
+    "text": "I would have attended the concert if my train had not been canceled. Which conclusion is most strongly supported?",
+    "choices": {
+      "A": "The speaker attended the concert.",
+      "B": "The speaker did not attend because the train was canceled.",
+      "C": "The speaker never intended to attend.",
+      "D": "The concert itself was canceled."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 9,
+    "text": "All mavens are tutors. No tutor is a trainee. Ada is a maven. Which statement must be true?",
+    "choices": {
+      "A": "Ada is not a trainee.",
+      "B": "All tutors are mavens.",
+      "C": "Ada is a trainee.",
+      "D": "Some trainees are tutors."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 10,
+    "text": "If the door is locked, the indicator is red. The indicator is not red. Assuming the rule always holds, what follows?",
+    "choices": {
+      "A": "The door is certainly open.",
+      "B": "The indicator is broken.",
+      "C": "The door is not locked.",
+      "D": "The indicator must be green."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 11,
+    "text": "Four sealed boxes are numbered 1 to 4. Exactly one box contains a key. Boxes 1, 2 and 4 are empty. Where must the key be?",
+    "choices": {
+      "A": "Box 1",
+      "B": "Box 3",
+      "C": "Box 4",
+      "D": "Box 2"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 12,
+    "text": "Four students—Ana, Ben, Cara and Dan—must present one after another. Dan presents before Ana, Ana presents before Ben, and Cara presents after Ben. Who must present last?",
+    "choices": {
+      "A": "Ben",
+      "B": "Ana",
+      "C": "Dan",
+      "D": "Cara"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 13,
+    "text": "A store has the following return policy: Within 14 days, customers with a receipt receive a full refund. After 14 days, customers with a receipt receive store credit. Without a receipt, neither option is available. A customer returns an item after 20 days and provides a valid receipt. What should the store offer?",
+    "choices": {
+      "A": "A full refund.",
+      "B": "An exchange only.",
+      "C": "No compensation because the receipt is invalid.",
+      "D": "Store credit."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 14,
+    "text": "Laboratory access requires both a valid employee ID badge and completed safety training. Jordan has a valid badge but has not completed the training. What is the correct decision?",
+    "choices": {
+      "A": "Allow entry because Jordan has a badge.",
+      "B": "Deny entry until the training is completed.",
+      "C": "Allow entry without any additional conditions.",
+      "D": "Allow entry only on weekends."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 15,
+    "text": "A workshop requires all participants to register. Participants under 18 must also arrive with an accompanying adult. A 16-year-old participant has registered successfully but arrives alone. What is the correct outcome?",
+    "choices": {
+      "A": "Admit the participant immediately.",
+      "B": "Reject the participant because registration is missing.",
+      "C": "Require an accompanying adult before admission.",
+      "D": "Require the participant to wait until turning 18, regardless of accompaniment."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 16,
+    "text": "An automated backup policy states: Run a backup if and only if the external drive is connected and the laptop is charging. Both conditions have been confirmed. What action follows from the policy?",
+    "choices": {
+      "A": "Run the backup now.",
+      "B": "Wait until the battery becomes fully charged.",
+      "C": "Do not run the backup.",
+      "D": "Disconnect the external drive first."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 17,
+    "text": "Three identical items cost $12 each. A 25% discount applies to the entire purchase. What is the final total?",
+    "choices": {
+      "A": "$24",
+      "B": "$27",
+      "C": "$30",
+      "D": "$33"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 18,
+    "text": "A train departs at 14:45. Its journey takes 1 hour and 35 minutes. What is its arrival time?",
+    "choices": {
+      "A": "15:20",
+      "B": "16:10",
+      "C": "16:30",
+      "D": "16:20"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 19,
+    "text": "A recipe requires 300 grams of flour for 4 servings. How much flour is needed for 10 servings at the same ratio?",
+    "choices": {
+      "A": "750 grams",
+      "B": "600 grams",
+      "C": "900 grams",
+      "D": "1,200 grams"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 20,
+    "text": "A factory produces 120 items. On Monday, one-third of the total production is sold. On Tuesday, one-quarter of the original 120 items is sold. Another 10 items are damaged and discarded. How many sellable items remain?",
+    "choices": {
+      "A": "30",
+      "B": "50",
+      "C": "40",
+      "D": "60"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 21,
+    "text": "Which part of a typical land plant primarily absorbs water and dissolved minerals from the soil?",
+    "choices": {
+      "A": "Roots",
+      "B": "Flowers",
+      "C": "Leaves",
+      "D": "Fruits"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 22,
+    "text": "Despite the delayed flight, Lina arrived before the meeting began. Which conclusion is supported?",
+    "choices": {
+      "A": "Lina missed the entire meeting.",
+      "B": "Lina arrived before the meeting started.",
+      "C": "The meeting was canceled.",
+      "D": "The flight arrived earlier than scheduled."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 23,
+    "text": "Some artists are engineers. All engineers are graduates. Which statement must be true?",
+    "choices": {
+      "A": "All artists are graduates.",
+      "B": "All graduates are engineers.",
+      "C": "Some artists are graduates.",
+      "D": "No artist is an engineer."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 24,
+    "text": "A library allows one renewal before the original due date, provided nobody has placed a hold on the book. A book is due on day 21. On day 18, its borrower requests a first renewal, and no hold exists. What should happen?",
+    "choices": {
+      "A": "The renewal must be rejected because 18 days have passed.",
+      "B": "The book must be returned immediately.",
+      "C": "The borrower must purchase the book.",
+      "D": "The renewal can be approved."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 25,
+    "text": "What is 15% of 240?",
+    "choices": {
+      "A": "24",
+      "B": "36",
+      "C": "30",
+      "D": "40"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 26,
+    "text": "Which gas makes up the largest proportion of Earth's atmosphere by volume?",
+    "choices": {
+      "A": "Oxygen",
+      "B": "Carbon dioxide",
+      "C": "Argon",
+      "D": "Nitrogen"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 27,
+    "text": "An instruction says: 'Submit your report no later than Friday.' Which interpretation is correct?",
+    "choices": {
+      "A": "Friday is the latest permitted submission day.",
+      "B": "Reports may only be submitted on Friday.",
+      "C": "Reports must be submitted after Friday.",
+      "D": "Friday is the earliest permitted submission day."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 28,
+    "text": "A three-digit code follows these rules: The first digit is 2. The second digit is twice the first. The third digit equals the sum of the first two digits. What is the code?",
+    "choices": {
+      "A": "248",
+      "B": "246",
+      "C": "264",
+      "D": "224"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 29,
+    "text": "An email system rejects attachments larger than 25 MB. A user attempts to send a 30 MB attachment. What should the system do according to this rule?",
+    "choices": {
+      "A": "Accept the attachment automatically.",
+      "B": "Accept it because the difference is only 5 MB.",
+      "C": "Reject the attachment.",
+      "D": "Increase the attachment limit permanently."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 30,
+    "text": "What is the arithmetic mean of 6, 8, 10 and 12?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "11",
+      "D": "9"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 31,
+    "text": "What is the name of the process in which liquid water changes into water vapor at its surface?",
+    "choices": {
+      "A": "Condensation",
+      "B": "Freezing",
+      "C": "Evaporation",
+      "D": "Deposition"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 32,
+    "text": "A reviewer says: 'I recognize the advantages of this proposal, but its implementation cost remains a concern.' Which interpretation best reflects the reviewer's position?",
+    "choices": {
+      "A": "The reviewer acknowledges benefits while expressing concern about cost.",
+      "B": "The reviewer believes the proposal has no advantages.",
+      "C": "The reviewer has approved the proposal without conditions.",
+      "D": "The reviewer is concerned only about the implementation schedule."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 33,
+    "text": "If condition P is true, condition Q must be true. If Q is true, condition R must be true. P is confirmed to be true. What must follow?",
+    "choices": {
+      "A": "Q must be false.",
+      "B": "R cannot be determined.",
+      "C": "P must become false.",
+      "D": "R must be true."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 34,
+    "text": "A website locks an account after three consecutive failed login attempts. A successful login resets the consecutive failure count. A user fails twice, logs in successfully, and then fails once. What is the account status?",
+    "choices": {
+      "A": "Locked after three total failures.",
+      "B": "Not locked because only one consecutive failure remains.",
+      "C": "Permanently suspended.",
+      "D": "Locked because any failure after success causes suspension."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 35,
+    "text": "A vehicle travels at a constant speed of 60 km/h for 2.5 hours. How far does it travel?",
+    "choices": {
+      "A": "120 km",
+      "B": "135 km",
+      "C": "150 km",
+      "D": "180 km"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 36,
+    "text": "Which is the largest planet in the Solar System by diameter?",
+    "choices": {
+      "A": "Earth",
+      "B": "Jupiter",
+      "C": "Neptune",
+      "D": "Saturn"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 37,
+    "text": "The website states: 'Only registered subscribers can access the archive.' If a person successfully accesses the archive while this rule is enforced, what must be true?",
+    "choices": {
+      "A": "The person is an administrator.",
+      "B": "The archive is publicly accessible.",
+      "C": "Every subscriber has accessed the archive.",
+      "D": "The person is a registered subscriber."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 38,
+    "text": "Five files A, B, C, D and E are arranged in a row. B is immediately before D. A is after D. C is before B. E is last. Which file must be first?",
+    "choices": {
+      "A": "File A",
+      "B": "File B",
+      "C": "File C",
+      "D": "File D"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 39,
+    "text": "An online store offers free shipping when the subtotal before coupons is at least $50. A customer's subtotal is $52, and a $10 coupon is applied afterward. Does the order qualify for free shipping?",
+    "choices": {
+      "A": "No, because the final total is below $50.",
+      "B": "No, because coupons always cancel free shipping.",
+      "C": "Yes, because the subtotal before coupons meets the threshold.",
+      "D": "Only if the customer removes the coupon."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 40,
+    "text": "Solve the equation x - 7 = 19.",
+    "choices": {
+      "A": "12",
+      "B": "19",
+      "C": "25",
+      "D": "26"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 41,
+    "text": "What is the primary reason Earth experiences a regular cycle of day and night?",
+    "choices": {
+      "A": "The Moon's orbit around Earth.",
+      "B": "Earth's rotation around its axis.",
+      "C": "The annual change of seasons.",
+      "D": "Changes in ocean tides."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 42,
+    "text": "The report is due next Wednesday unless the client grants an extension. Which statement accurately describes the deadline?",
+    "choices": {
+      "A": "The report must be submitted today.",
+      "B": "The report has been canceled.",
+      "C": "Wednesday is the deadline unless an extension is granted.",
+      "D": "The deadline is completely unspecified."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 43,
+    "text": "Four people A, B, C and D stand in a line. D is ahead of A, A is ahead of B, and C is behind B. Who must stand first?",
+    "choices": {
+      "A": "Person A",
+      "B": "Person B",
+      "C": "Person C",
+      "D": "Person D"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 44,
+    "text": "A device is configured to enter sleep mode after 10 minutes of inactivity, except when presentation mode is enabled. The device has been inactive for 12 minutes, but presentation mode is currently enabled. What should happen?",
+    "choices": {
+      "A": "The device must shut down completely.",
+      "B": "The device should remain awake because presentation mode overrides sleep.",
+      "C": "The device must enter sleep mode after exactly 10 minutes.",
+      "D": "Presentation mode must be disabled automatically."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 45,
+    "text": "A cyclist travels for 2.5 hours at an average speed of 18 km/h. What is the total distance?",
+    "choices": {
+      "A": "36 km",
+      "B": "40 km",
+      "C": "45 km",
+      "D": "54 km"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 46,
+    "text": "Which human organ is primarily responsible for exchanging oxygen and carbon dioxide with the surrounding air?",
+    "choices": {
+      "A": "Stomach",
+      "B": "Liver",
+      "C": "Lungs",
+      "D": "Pancreas"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 47,
+    "text": "A seller writes: 'We can ship the blue model today, but the black model will not be available until next week.' Which statement is supported?",
+    "choices": {
+      "A": "The blue model is available for shipping today.",
+      "B": "Both models can ship immediately.",
+      "C": "The black model has been permanently discontinued.",
+      "D": "Neither model is currently available."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 48,
+    "text": "No reptiles are mammals. All snakes are reptiles. Which conclusion must follow?",
+    "choices": {
+      "A": "Some snakes are mammals.",
+      "B": "All mammals are snakes.",
+      "C": "No reptiles are snakes.",
+      "D": "No snakes are mammals."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 49,
+    "text": "A password policy requires at least 12 characters, including at least one digit and one special symbol. The password 'RiverStone9!' is submitted. Does it satisfy these stated requirements?",
+    "choices": {
+      "A": "No, because it is shorter than 12 characters.",
+      "B": "Yes, it satisfies all three stated requirements.",
+      "C": "No, because it contains no digit.",
+      "D": "No, because it contains no special symbol."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 50,
+    "text": "What is 18% of 50?",
+    "choices": {
+      "A": "9",
+      "B": "8",
+      "C": "11",
+      "D": "12"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 51,
+    "text": "Which condition is necessary for ordinary mechanical sound waves to propagate?",
+    "choices": {
+      "A": "A perfect vacuum.",
+      "B": "A material medium.",
+      "C": "Direct sunlight.",
+      "D": "A magnetic field."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 52,
+    "text": "Your supervisor says: 'Please review the document and send me your comments. Do not publish it yet.' What is the appropriate immediate action?",
+    "choices": {
+      "A": "Publish the document immediately.",
+      "B": "Delete the document.",
+      "C": "Review the document and provide comments without publishing it.",
+      "D": "Ignore the document until publication is requested."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 53,
+    "text": "Nora is older than Liam. Liam is older than Owen. Which person is the youngest?",
+    "choices": {
+      "A": "Owen",
+      "B": "Liam",
+      "C": "Nora",
+      "D": "Their ages cannot be ordered."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 54,
+    "text": "A store offers an additional 10% student discount on regular-priced items only. A student presents a valid ID but chooses an item already marked as a sale item. What happens under this rule?",
+    "choices": {
+      "A": "The student receives an additional 20% discount.",
+      "B": "The item becomes free.",
+      "C": "The student automatically receives 10% off every item.",
+      "D": "The additional student discount does not apply to the sale item."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 55,
+    "text": "A rectangular garden measures 7 meters by 4 meters. A strip 1 meter wide is reserved along all four sides inside the garden. What is the area of the remaining central rectangle?",
+    "choices": {
+      "A": "14 square meters",
+      "B": "10 square meters",
+      "C": "28 square meters",
+      "D": "18 square meters"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 56,
+    "text": "Which of the following is a chemical change rather than only a physical change?",
+    "choices": {
+      "A": "Melting ice.",
+      "B": "Cutting a sheet of paper.",
+      "C": "Burning wood and forming ash.",
+      "D": "Dissolving sugar in water."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 57,
+    "text": "A colleague writes: 'I am unavailable during the morning, but I can help after lunch.' Which time is consistent with the colleague's stated availability?",
+    "choices": {
+      "A": "Before breakfast.",
+      "B": "Early morning.",
+      "C": "Any time before lunch.",
+      "D": "After lunch."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 58,
+    "text": "Exactly two of four lights are switched on. The red light is off, and the blue light is on. The remaining lights are green and yellow. Which statement must be true?",
+    "choices": {
+      "A": "Both green and yellow are on.",
+      "B": "Exactly one of green and yellow is on.",
+      "C": "Neither green nor yellow is on.",
+      "D": "The red light is on."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 59,
+    "text": "A membership system assigns tiers by points: Bronze for 0–99, Silver for 100–199, and Gold for 200 or more. A user currently has 199 points. Which tier applies?",
+    "choices": {
+      "A": "Silver",
+      "B": "Gold",
+      "C": "Bronze",
+      "D": "No tier"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 60,
+    "text": "Five tickets cost $7.50 each. A single booking fee of $2.50 is added to the entire order. What is the final total?",
+    "choices": {
+      "A": "$35.00",
+      "B": "$42.50",
+      "C": "$37.50",
+      "D": "$40.00"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 61,
+    "text": "Which star is closest to Earth?",
+    "choices": {
+      "A": "Sirius",
+      "B": "Proxima Centauri",
+      "C": "Polaris",
+      "D": "The Sun"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 62,
+    "text": "The statement says: 'Neither of the two submitted tests passed.' What does this mean?",
+    "choices": {
+      "A": "Both tests passed.",
+      "B": "Both tests failed.",
+      "C": "Exactly one test passed.",
+      "D": "Neither test was submitted."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 63,
+    "text": "All glips are norks. Some norks are taves. No additional relationships are known. Which statement is guaranteed by the premises?",
+    "choices": {
+      "A": "Every glip is a nork.",
+      "B": "Every tave is a glip.",
+      "C": "At least one glip is a tave.",
+      "D": "No nork is a tave."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 64,
+    "text": "An office lighting system turns lights off after 10 minutes without motion unless a manual override is active. No motion has been detected for 12 minutes, but a valid manual override is still active. What is the correct system behavior?",
+    "choices": {
+      "A": "Turn the lights off immediately.",
+      "B": "Disable the manual override automatically.",
+      "C": "Keep the lights on while the override remains active.",
+      "D": "Restart the motion sensor."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 65,
+    "text": "A product has a listed price of $90. A 20% discount is applied to the product, followed by a fixed $5 shipping charge. What is the total amount payable?",
+    "choices": {
+      "A": "$72",
+      "B": "$77",
+      "C": "$75",
+      "D": "$80"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 66,
+    "text": "Which instrument is used to measure atmospheric pressure?",
+    "choices": {
+      "A": "Barometer",
+      "B": "Hygrometer",
+      "C": "Thermometer",
+      "D": "Anemometer"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 67,
+    "text": "A person says: 'I prefer tea over coffee, although either is acceptable.' Which statement best describes the person's preference?",
+    "choices": {
+      "A": "The person refuses to drink tea.",
+      "B": "The person considers coffee the only acceptable option.",
+      "C": "The person prefers tea but would also accept coffee.",
+      "D": "The person has expressed no preference."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 68,
+    "text": "If a battery is low, a warning indicator appears. The warning indicator is currently visible. No other information is available. Which conclusion is logically justified?",
+    "choices": {
+      "A": "The battery must be low.",
+      "B": "The battery must be fully charged.",
+      "C": "The warning indicator cannot have another cause.",
+      "D": "It cannot be determined whether the battery is low."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 69,
+    "text": "A museum offers free admission to visitors aged 12 or younger. Visitors aged 13 or older must purchase a standard ticket. What applies to a visitor who is exactly 12 years old?",
+    "choices": {
+      "A": "The visitor must purchase a standard ticket.",
+      "B": "The visitor qualifies for free admission.",
+      "C": "The visitor is classified as an adult.",
+      "D": "The visitor must wait until turning 13."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 70,
+    "text": "A bus travels 90 kilometers at a constant speed of 60 km/h and makes one additional 15-minute stop. What is the total journey duration?",
+    "choices": {
+      "A": "1 hour 30 minutes",
+      "B": "2 hours",
+      "C": "1 hour 45 minutes",
+      "D": "2 hours 15 minutes"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 71,
+    "text": "Which material forms the writing core of an ordinary graphite pencil?",
+    "choices": {
+      "A": "Metallic lead",
+      "B": "Graphite",
+      "C": "Iron",
+      "D": "Quartz"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 72,
+    "text": "A project member writes: 'I sent you the draft yesterday, not the final version.' Which document was sent?",
+    "choices": {
+      "A": "Only the final version.",
+      "B": "Neither version.",
+      "C": "Both the draft and final version.",
+      "D": "The draft version."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 73,
+    "text": "Statements A and B cannot both be true. Statement A is confirmed to be true. What must follow?",
+    "choices": {
+      "A": "Statement B is false.",
+      "B": "Statement B must also be true.",
+      "C": "Both statements are false.",
+      "D": "There is no logical restriction on B."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 74,
+    "text": "A restaurant holds reservations for up to 15 minutes after the scheduled arrival time. A customer arrives 18 minutes late without notifying the restaurant. Under the stated policy, what may the restaurant do?",
+    "choices": {
+      "A": "Guarantee the original table indefinitely.",
+      "B": "Extend every late reservation by another hour.",
+      "C": "Release the reserved table.",
+      "D": "Cancel all reservations for the day."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 75,
+    "text": "A prize of $50 is divided between two people in the ratio 2:3. The person receiving the smaller share is then given an additional $4 from a separate fund. How much does that person receive in total?",
+    "choices": {
+      "A": "$20",
+      "B": "$24",
+      "C": "$25",
+      "D": "$30"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 76,
+    "text": "Which component of human blood is primarily responsible for transporting oxygen throughout the body?",
+    "choices": {
+      "A": "Red blood cells",
+      "B": "White blood cells",
+      "C": "Platelets",
+      "D": "Blood plasma alone"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 77,
+    "text": "An announcement states: 'Unless it rains, the outdoor match will begin at 3 PM.' Assuming it does not rain, what follows from the announcement?",
+    "choices": {
+      "A": "The match must be canceled.",
+      "B": "The match will begin at an unspecified time.",
+      "C": "The match will begin at 3 PM.",
+      "D": "The match will begin only after sunset."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 78,
+    "text": "Three cards are labeled 2, 4 and 6. One card is removed. The sum of the two remaining card values is 10. Which card was removed?",
+    "choices": {
+      "A": "Card 4",
+      "B": "Card 2",
+      "C": "Card 6",
+      "D": "The removed card cannot be determined."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 79,
+    "text": "A rental agreement requires equipment to be returned within 72 hours of checkout. A device is checked out on Monday at 10:00 AM and returned on Thursday at 9:00 AM. Is the return on time?",
+    "choices": {
+      "A": "No, it is one hour overdue.",
+      "B": "No, it is exactly one day overdue.",
+      "C": "It arrives exactly at the deadline.",
+      "D": "Yes, it is returned one hour before the deadline."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 80,
+    "text": "A factory inspects 64 items. Initially, 75% pass inspection. During a second inspection, one-sixth of those initially approved items are found defective and removed. How many approved items remain?",
+    "choices": {
+      "A": "32",
+      "B": "48",
+      "C": "40",
+      "D": "42"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 81,
+    "text": "Which factor is primarily responsible for generating Earth's ocean tides?",
+    "choices": {
+      "A": "Changes in wind direction alone.",
+      "B": "Earth's daily rotation alone.",
+      "C": "The Moon's gravitational influence.",
+      "D": "Photosynthesis in marine plants."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 82,
+    "text": "A worker reports: 'I have completed sections one and two, but section three is still incomplete.' Which section still requires work?",
+    "choices": {
+      "A": "Section one.",
+      "B": "Section three.",
+      "C": "Section two.",
+      "D": "All three sections."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 83,
+    "text": "All red balls in a collection are heavy. Ball X from this collection is not heavy. Which statement must be true?",
+    "choices": {
+      "A": "Ball X is definitely red.",
+      "B": "Every heavy ball is red.",
+      "C": "Ball X may still be red.",
+      "D": "Ball X is not red."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 84,
+    "text": "A document upload system accepts only filenames ending in .pdf or .txt. A user uploads a file named report.csv. According to this rule, what should happen?",
+    "choices": {
+      "A": "Reject the file because its extension is unsupported.",
+      "B": "Accept the file because it contains text.",
+      "C": "Automatically rename it to report.pdf.",
+      "D": "Accept the file regardless of its extension."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 85,
+    "text": "Four workers can complete a job in six days. Assuming identical and constant individual productivity, how many days would eight workers need to complete the same job?",
+    "choices": {
+      "A": "2 days",
+      "B": "4 days",
+      "C": "3 days",
+      "D": "12 days"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 86,
+    "text": "At 25°C, an aqueous solution has a measured pH of 4. How is the solution classified?",
+    "choices": {
+      "A": "Acidic",
+      "B": "Neutral",
+      "C": "Alkaline",
+      "D": "Neither acidic nor alkaline because its pH is below 5"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 87,
+    "text": "A customer writes: 'Please hold my package at the pickup point instead of delivering it to my home address.' What action is explicitly requested?",
+    "choices": {
+      "A": "Deliver the package to the customer's home.",
+      "B": "Hold the package at the pickup point.",
+      "C": "Return the package to the sender.",
+      "D": "Cancel the order."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 88,
+    "text": "A rule states: If a file is encrypted, it cannot be opened without the correct key. A particular file was successfully opened without any key. Assuming the rule always holds, what follows?",
+    "choices": {
+      "A": "The file must be encrypted.",
+      "B": "The key must have been hidden.",
+      "C": "The rule must have been violated.",
+      "D": "The file is not encrypted."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 89,
+    "text": "A course requires either successful completion of prerequisite P or an approved instructor waiver. Sam has not completed P and has no waiver. Is Sam currently eligible to enroll?",
+    "choices": {
+      "A": "Yes, all applicants are eligible.",
+      "B": "Yes, the prerequisite is optional for everyone.",
+      "C": "No, neither qualifying condition has been met.",
+      "D": "Yes, because lacking a prerequisite automatically grants a waiver."
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 90,
+    "text": "Consider the sequence 2, 6, 18, 54. If each term is obtained by multiplying the previous term by the same number, what is the next term?",
+    "choices": {
+      "A": "108",
+      "B": "162",
+      "C": "216",
+      "D": "72"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 91,
+    "text": "Which organelle produces most ATP during aerobic cellular respiration in typical eukaryotic cells?",
+    "choices": {
+      "A": "Ribosome",
+      "B": "Golgi apparatus",
+      "C": "Lysosome",
+      "D": "Mitochondrion"
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 92,
+    "text": "A software notice states: 'This update is optional for existing users but mandatory for all new installations.' For which group is the update mandatory?",
+    "choices": {
+      "A": "New installations.",
+      "B": "Existing users only.",
+      "C": "All users without exception.",
+      "D": "Nobody."
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 93,
+    "text": "A is taller than B. C is shorter than B. D is taller than A. All four people have different heights. Who is the second tallest?",
+    "choices": {
+      "A": "Person B",
+      "B": "Person C",
+      "C": "Person A",
+      "D": "Person D"
+    },
+    "expected_answer": "C"
+  },
+  {
+    "id": 94,
+    "text": "An online store permits only one discount coupon per order. A customer has already applied one valid coupon and attempts to add another. What should the system do?",
+    "choices": {
+      "A": "Apply both coupons automatically.",
+      "B": "Reject the second coupon while retaining the first.",
+      "C": "Apply unlimited coupons because the first one was valid.",
+      "D": "Cancel the entire order immediately."
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 95,
+    "text": "A cyclist travels 15 kilometers to a destination in 30 minutes, then returns along the same route in 60 minutes. What is the average speed over the entire round trip?",
+    "choices": {
+      "A": "22.5 km/h",
+      "B": "20 km/h",
+      "C": "25 km/h",
+      "D": "30 km/h"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 96,
+    "text": "In which layer of Earth's atmosphere does most ordinary weather occur?",
+    "choices": {
+      "A": "Stratosphere",
+      "B": "Troposphere",
+      "C": "Mesosphere",
+      "D": "Thermosphere"
+    },
+    "expected_answer": "B"
+  },
+  {
+    "id": 97,
+    "text": "A person says: 'I can attend on either Monday or Wednesday, but Friday is impossible for me.' Which day is explicitly unavailable?",
+    "choices": {
+      "A": "Friday",
+      "B": "Monday",
+      "C": "Wednesday",
+      "D": "Both Monday and Wednesday"
+    },
+    "expected_answer": "A"
+  },
+  {
+    "id": 98,
+    "text": "If a report is approved, it is archived. If a report is archived, it becomes searchable. A particular report is confirmed to be not searchable. Assuming both rules always hold, what must follow?",
+    "choices": {
+      "A": "The report has been approved.",
+      "B": "The report is archived but hidden.",
+      "C": "The report must become searchable tomorrow.",
+      "D": "The report has not been approved."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 99,
+    "text": "A system requires both a correct password and successful two-factor authentication for remote access. A user enters the correct password but does not complete the second authentication factor. What is the correct access decision?",
+    "choices": {
+      "A": "Grant full remote access.",
+      "B": "Grant permanent access because the password is correct.",
+      "C": "Automatically disable two-factor authentication.",
+      "D": "Deny access until the second factor is completed."
+    },
+    "expected_answer": "D"
+  },
+  {
+    "id": 100,
+    "text": "A storage device has a total capacity of 120 GB. Currently, 35 GB is used by files and another 15 GB is reserved by the system. How much capacity remains available for new files?",
+    "choices": {
+      "A": "80 GB",
+      "B": "70 GB",
+      "C": "85 GB",
+      "D": "100 GB"
+    },
+    "expected_answer": "B"
+  }
+]

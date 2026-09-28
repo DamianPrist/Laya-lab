@@ -1,0 +1,10 @@
+.env
+.venv/
+.venv-laya/
+__pycache__/
+*.py[cod]
+results.jsonl
+*.log
+.pytest_cache/
+.mypy_cache/
+
